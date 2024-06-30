@@ -1,17 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
 }
 header {
     background-color: #343a40;
     color: #fff;
 }
-nav .nav-link {
+.nav-link {
     margin-right: 10px;
 }
-main {
+section {
     padding: 2rem 0;
 }
 footer {
@@ -21,4 +19,15 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+.card-deck .card {
+    margin-bottom: 20px;
+}
+.social-links a {
+    margin: 0 10px;
+    color: #343a40;
+    text-decoration: none;
+}
+.social-links a:hover {
+    text-decoration: underline;
 }
